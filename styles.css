@@ -141,6 +141,10 @@
     -webkit-animation-duration: 1s;
     visibility: visible;
   }
+  .font-style-custom-rajawat{
+    padding: 10px;
+    color: #00ffcc;
+  }
   @keyframes slide {
     0% {
       opacity: 0;
