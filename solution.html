@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com -->
+  <title>CSES Solutions</title>
+  <link rel = "icon" href = "logo_dark.jpg" type = "image/x-icon"> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/9940fdab9a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* Float four columns side by side */
+    .column {
+      float: left;
+      width: 25%;
+      padding: 0 10px;
+    }
+    
+    /* Remove extra left and right margins, due to padding */
+    .row {margin: 0 -5px;}
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Responsive columns */
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+    }
+    
+    /* Style the counter cards */
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 16px;
+      text-align: center;
+      background-color: #f1f1f1;
+    }
+    </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"><img style="width: 35px; border-radius: 50%;" src="logo_dark.jpg" alt=""> </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="chapter.html">CODECHEF-CHAPTER</a></li>
+        <li><a href="impLink.html">RESOURCES</a></li>
+        <li><a href="social.html">ROADMAPS</a></li>
+        <li><a href="solution.html">SOLUTION</a></li>
+        <li><a href="blogs.html">BLOGS</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div style="padding: 40px 20px;" class="jumbotron text-center">
+  <h1>CSES</h1> 
+  <p>Solution with Quick Explanation</p>
+</div>
+<div id="about" class="container-fluid">
+    <center><h1><b>Introductory Problems</b></h1></center>
+    <div style="padding: 10px;" class="row">
+        <div class="column">
+            <div class="card">
+              <h3><a target="__blank"  href="https://cses.fi/problemset/task/1068">Wierd Algorithm</a></h3>
+              <p><a  target="__blank" href="https://cses.fi/paste/b0efc780e89116881896bf/">C++</a></p>
+              <p><a  target="__blank" href="https://cses.fi/paste/dce41542e393a739ab799/">Python</a></p>
+              <p><a  target="__blank" href="">Java</a></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h3><a target="__blank" href="https://cses.fi/problemset/task/1083">Missing Number</a></h3>
+              <p><a target="__blank" href="https://cses.fi/paste/c45f5720d65397d41896cf/">C++</a></p>
+              <p><a target="__blank" href="https://cses.fi/paste/217ff3a030188e9e88f00/">Python</a></p>
+              <p><a target="__blank" href="">Java</a></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h3><a target="__blank" href="https://cses.fi/problemset/task/1069">Repetitions</a></h3>
+              <p><a target="__blank" href="https://cses.fi/paste/79385a46cb9528f6189742/">C++</a></p>
+              <p><a target="__blank" href="https://cses.fi/paste/00595193ac050c88ab83e/">Python</a></p>
+              <p><a target="__blank" href="">Java</a></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h3><a   target="__blank" href="https://cses.fi/problemset/task/1094">Increasing Array</a></h3>
+              <p><a   target="__blank" href="https://cses.fi/paste/2eef882f62dfb5111897b0/">C++</a></p>
+              <p><a target="__blank" href="https://cses.fi/paste/b08757275bc1f3fcab886/">Python</a></p>
+              <p><a target="__blank" href="">Java</a></p>
+            </div>
+          </div>
+          
+    </div>
+    <div style="padding: 10px;" class="row">
+        <div class="column">
+            <div class="card">
+              <h3><a target="__blank" href="https://cses.fi/problemset/task/1070">Permutations</a></h3>
+              <p><a target="__blank" href="https://cses.fi/paste/0fca7a0d562951261897da/">C++</a></p>
+              <p><a target="__blank" href="https://cses.fi/paste/e98d5656b5a6ddc0ab8dc/">Python</a></p>
+              <p><a target="__blank" href="">Java</a></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h3><a target="__blank" href="https://cses.fi/problemset/task/1071">Number Spiral</a></h3>
+              <p><a target="__blank" href="https://cses.fi/paste/84d8d0a5c2f0b13a18a207/">C++</a></p>
+              <p><a target="__blank" href="https://cses.fi/paste/ac3698688cba94b8abaac/">Python</a></p>
+              <p><a target="__blank" href="">Java</a></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h3><a target="__blank" href="https://cses.fi/problemset/task/1072">Two Knights</a></h3>
+              <p><a target="__blank" href="https://cses.fi/paste/fee3d735c66f493b18c1fe/">C++</a></p>
+              <p><a target="__blank" href="https://cses.fi/paste/17bc29aafe3a0611b0d65/">Python</a></p>
+              <p><a target="__blank" href="">Java</a></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h3><a target="__blank" href="https://cses.fi/problemset/task/1092">Two Sets</a></h3>
+              <p><a target="__blank" href="https://cses.fi/paste/1da022511fbbb5f518a3d6/">C++</a></p>
+              <p><a target="__blank" href="">Python</a></p>
+              <p><a target="__blank" href="">Java</a></p>
+            </div>
+          </div>
+    </div>
+    <div style="padding: 10px;" class="row">
+      <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="https://cses.fi/problemset/task/1617">Bit Strings</a></h3>
+            <p><a target="__blank" href="https://cses.fi/paste/2b5a4a9c5a608d5b18a457/">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="https://cses.fi/problemset/task/1618">Trailing Zeros</a></h3>
+            <p><a target="__blank" href="https://cses.fi/paste/2d358ae3a172873818c259/">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="https://cses.fi/problemset/task/1754">Coin Piles</a></h3>
+            <p><a target="__blank" href="https://cses.fi/paste/9f23a1a9c36cb63a18af51/">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="https://cses.fi/problemset/task/1755">Palindromic Number</a></h3>
+            <p><a target="__blank" href="https://cses.fi/paste/c44f95f73957dfa118af3a/">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+  </div>
+  <div style="padding: 10px;" class="row">
+    <div class="column">
+        <div class="card">
+          <h3><a target="__blank"  href="https://cses.fi/problemset/task/2205">Gray Code</a></h3>
+          <p><a  target="__blank" href="https://cses.fi/paste/a5cfcfd1c46f439118c323/">C++</a></p>
+          <p><a  target="__blank" href="">Python</a></p>
+          <p><a  target="__blank" href="">Java</a></p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h3><a target="__blank" href="https://cses.fi/problemset/task/2165">Tower of Hanoi</a></h3>
+          <p><a target="__blank" href="https://cses.fi/paste/6234cbb67b46387818afef/">C++</a></p>
+          <p><a target="__blank" href="">Python</a></p>
+          <p><a target="__blank" href="">Java</a></p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h3><a target="__blank" href="https://cses.fi/problemset/task/1622">Creating Strings</a></h3>
+          <p><a target="__blank" href="https://cses.fi/paste/73032a25474cf22f18afb2/">C++</a></p>
+          <p><a target="__blank" href="">Python</a></p>
+          <p><a target="__blank" href="">Java</a></p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h3><a   target="__blank" href="https://cses.fi/problemset/task/1623">Apple Division</a></h3>
+          <p><a   target="__blank" href="https://cses.fi/paste/624cfb17418ca8a218c2b6/">C++</a></p>
+          <p><a target="__blank" href="">Python</a></p>
+          <p><a target="__blank" href="">Java</a></p>
+        </div>
+      </div>
+</div>
+<div style="padding: 10px;" class="row">
+  <div class="column">
+      <div class="card">
+        <h3><a target="__blank"  href="https://cses.fi/problemset/task/1624">Chessboard & Queens</a></h3>
+        <p><a  target="__blank" href="">C++</a></p>
+        <p><a  target="__blank" href="">Python</a></p>
+        <p><a  target="__blank" href="">Java</a></p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <h3><a target="__blank" href="https://cses.fi/problemset/task/2431">Digit Queries</a></h3>
+        <p><a target="__blank" href="">C++</a></p>
+        <p><a target="__blank" href="">Python</a></p>
+        <p><a target="__blank" href="">Java</a></p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <h3><a target="__blank" href="https://cses.fi/problemset/task/1625">Grid Path</a></h3>
+        <p><a target="__blank" href="">C++</a></p>
+        <p><a target="__blank" href="">Python</a></p>
+        <p><a target="__blank" href="">Java</a></p>
+      </div>
+    </div>
+</div>
+<!-- Sorting and Searching -->
+    <center><h1><b>Sorting and Searching</b></h1></center>
+    <div style="padding: 10px;" class="row">
+        <div class="column">
+            <div class="card">
+              <h3><a target="__blank" href="">Comming soon..</a></h3>
+              <p><a target="__blank" href="">C++</a></p>
+              <p><a target="__blank" href="">Python</a></p>
+              <p><a target="__blank" href="">Java</a></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h3><a target="__blank" href="">Comming soon..</a></h3>
+              <p><a target="__blank" href="">C++</a></p>
+              <p><a target="__blank" href="">Python</a></p>
+              <p><a target="__blank" href="">Java</a></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h3><a target="__blank" href="">Comming soon..</a></h3>
+              <p><a target="__blank" href="">C++</a></p>
+              <p><a target="__blank" href="">Python</a></p>
+              <p><a target="__blank" href="">Java</a></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h3><a target="__blank" href="">Comming soon..</a></h3>
+              <p><a target="__blank" href="">C++</a></p>
+              <p><a target="__blank" href="">Python</a></p>
+              <p><a target="__blank" href="">Java</a></p>
+            </div>
+          </div>
+    </div>
+    <center><h1><b>Dynamic Algorithm</b></h1></center>
+    <div style="padding: 10px;" class="row">
+      <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+  </div>
+    <center><h1><b>Graph Algorithm</b></h1></center>
+    <div style="padding: 10px;" class="row">
+      <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+  </div>
+    <center><h1><b>Range Queries</b></h1></center>
+    <div style="padding: 10px;" class="row">
+      <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+  </div>
+    <center><h1><b>Tree Algorithms</b></h1></center>
+    <div style="padding: 10px;" class="row">
+      <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+  </div>
+    <center><h1><b>Mathematics</b></h1></center>
+    <div style="padding: 10px;" class="row">
+      <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+  </div>
+    <center><h1><b>String Algorithm</b></h1></center>
+    <div style="padding: 10px;" class="row">
+      <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+  </div>
+    <center><h1><b>Geometry</b></h1></center>
+    <div style="padding: 10px;" class="row">
+      <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+  </div>
+    <center><h1><b>Advance Techniques</b></h1></center>
+    <div style="padding: 10px;" class="row">
+      <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+  </div>
+    <center><h1><b>Additional Program</b></h1></center>
+    <div style="padding: 10px;" class="row">
+      <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h3><a target="__blank" href="">Comming soon..</a></h3>
+            <p><a target="__blank" href="">C++</a></p>
+            <p><a target="__blank" href="">Python</a></p>
+            <p><a target="__blank" href="">Java</a></p>
+          </div>
+        </div>
+  </div>
+  </div>
+<!-- <script src="scripts.js"></script> -->
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <h3>Social Media Links</h3>
+  <div style="margin: 4px 0;">
+    <a target="__blank" href="https://github.com/thertucoders"><i style="padding: 16px;" aria-hidden="true" class="fa fa-2x fa-github "></i></a> 
+    <a target="__blank" href="https://www.linkedin.com/company/codechef-rtu-chapter"><i style="padding: 16px;" aria-hidden="true" class="fa fa-2x fa-linkedin"></i></a>  
+    <a target="__blank" href="https://instagram.com/codechef_rtu_chapter?igshid=28xd3nc12li5"s><i style="padding: 16px;" aria-hidden="true" class="fa fa-2x fa-instagram"></i></a>
+    <a target="__blank" href="https://www.facebook.com/CodeChef-Rtu-Chapter-103723514891683/?view_public_for=103723514891683"><i style="padding: 16px;" aria-hidden="true" class="fa fa-2x fa-facebook"></i></a> 
+    <a target="__blank" href="https://discord.gg/bJ9C5T6rJC"><i style="padding: 16px;" aria-hidden="true" class="fa fa-2x fa-discord"></i></a>    
+    <a target="__blank" href="https://www.youtube.com/channel/UCTVJbzDVxSKpkKbVPx_bFEg"><i style="padding: 16px;" aria-hidden="true" class="fa fa-2x fa-youtube"></i></a> 
+  </div>
+</footer>
+</body>
+</html>
+
+<!-- To add 4 Column Div just copy below code and paste it -->
+
+<!-- 
+
+<div style="padding: 10px;" class="row">
+        <div class="column">
+            <div class="card">
+              <h3><a target="__blank" href="">Comming soon..</a></h3>
+              <p><a target="__blank" href="">C++</a></p>
+              <p><a target="__blank" href="">Python</a></p>
+              <p><a target="__blank" href="">Java</a></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h3><a target="__blank" href="">Comming soon..</a></h3>
+              <p><a target="__blank" href="">C++</a></p>
+              <p><a target="__blank" href="">Python</a></p>
+              <p><a target="__blank" href="">Java</a></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h3><a target="__blank" href="">Comming soon..</a></h3>
+              <p><a target="__blank" href="">C++</a></p>
+              <p><a target="__blank" href="">Python</a></p>
+              <p><a target="__blank" href="">Java</a></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <h3><a target="__blank" href="">Comming soon..</a></h3>
+              <p><a target="__blank" href="">C++</a></p>
+              <p><a target="__blank" href="">Python</a></p>
+              <p><a target="__blank" href="">Java</a></p>
+            </div>
+          </div>
+    </div>
+
+ -->
